@@ -26,11 +26,11 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 ### Transformations Used
-The only variables of interest were those that contained the terms mean() or std(). Other variables describing max(), min(), energy(), entropy() were discarded.
-The data set used exponential notation. I converted exponential to double numerical format to support subsequent mathematical functions.
-Data was separated into two files: test and train. These were combined.
-Subject, Activity, and Variable data was also separated for test data and train data. These were combined appropriately to create a single data set that listed, for each subject and activity, the 66 recorded variables.
-The data was also grouped by subject, activity and the data was summarized with a mean.
+- The only variables of interest were those that contained the terms mean() or std(). Other variables describing max(), min(), energy(), entropy() were discarded.
+- The data set used exponential notation. I converted exponential to double numerical format to support subsequent mathematical functions.
+- Data was separated into two files: test and train. These were combined.
+- Subject, Activity, and Variable data was also separated for test data and train data. These were combined appropriately to create a single data set that listed, for each subject and activity, the 66 recorded variables.
+- The data was also grouped by subject, activity and the data was summarized with a mean.
 
 
 ## Please see the README.md for how the following instructions are implemented [README.md]
