@@ -18,13 +18,13 @@ Cookbook | CodeBook.md |  [Markdown Link](https://github.com/joelmodisette/datas
 README | README.md  |  [Markdown Link](https://github.com/joelmodisette/datasciencecoursera/edit/master/Course3_Get_Clean_Data/Project/README.md "README.md")
 
 ## Script Functionality
-I used the TidyVerse R Packages for the script. I find TidyVerse creates a more readable and logical flow. My primary references were:
+I used the TidyVerse R Packages for my script. I find TidyVerse creates a more readable and logical flow. My primary references were:
 Resource | Author(s) | Link to Resource
 --- | --- | ---
 Introduction to Tidyverse : readr, tibbles, tidyr & dplyr | Brian Ward | https://medium.com/@brianward1428/introduction-to-tidyverse-7b3dbf2337d5
 R Studio::Conf 2019 / Cheatsheets | Various | https://rstudio.com/wp-content/uploads/2019/01/Cheatsheets_2019.pdf
 
-The script follows these steps in order:
+No other scripts are required. The submitted script follows these steps in order:
 1. Setup: Load packages, establish directory paths, download and unzip data package.
 2. Read in Data: Each data file is read into a data frame, as is. No modifications.
 3. Filter for only the variables needed: mean() and std().
