@@ -8,7 +8,7 @@ Student: Joel Modisette
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Project Deliverables
+## Deliverables
 Plain Name | Filename | Link to Item
 --- | --- | ---
 Analysis R Script |  run_analysis.R |  [R Script Link](https://github.com/joelmodisette/datasciencecoursera/blob/master/Course3_Get_Clean_Data/Project/run_analysis.R "run_analysis.R")
@@ -18,7 +18,8 @@ Cookbook | CodeBook.md |  [Markdown Link](https://github.com/joelmodisette/datas
 README | README.md  |  [Markdown Link](https://github.com/joelmodisette/datasciencecoursera/edit/master/Course3_Get_Clean_Data/Project/README.md "README.md")
 
 ## Script Functionality
-I used the TidyVerse R Packages for my script. I find TidyVerse creates a more readable and logical flow. My primary references were:
+I used the TidyVerse R Packages for my script. I find that TidyVerse allows more readable code and sequential logical flow. 
+My primary TidyVerse references were:
 Resource | Author(s) | Link to Resource
 --- | --- | ---
 Introduction to Tidyverse : readr, tibbles, tidyr & dplyr | Brian Ward | https://medium.com/@brianward1428/introduction-to-tidyverse-7b3dbf2337d5
