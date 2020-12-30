@@ -27,17 +27,9 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 ### Transformations Used
-- The only variables of interest were those that contained the terms mean() or std(). Other variables describing max(), min(), energy(), entropy() were discarded.
-- The data set used exponential notation. I converted exponential to double numerical format to support subsequent mathematical functions.
-- Data was separated into two files: test and train. These were combined.
-- Subject, Activity, and Variable data was also separated for test data and train data. These were combined appropriately to create a single data set that listed, for each subject and activity, the 66 recorded variables.
-- The data was also grouped by subject, activity and the data was summarized with a mean.
-
-
-## Please see the README.md for how the following instructions are implemented [README.md]
-
-### 1. Merge the training and the test sets to create one data set.
-### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-### 3. Uses descriptive activity names to name the activities in the data set
-### 4. Appropriately labels the data set with descriptive variable names.
-### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+- The only variables of interest were those that contained the terms mean() or std(). Other variables describing max(), min(), energy(), entropy(), etc. were discarded.
+- The original data sets used exponential notation. I transformed exponential notation to double numerical format to support subsequent mathematical functions.
+- The data was originally separated into two files: test and train. Test and Train contained data on the same 30 subjects performing the same 6 activities. These were combined into one data set.
+- Subject, Activity, and Variable data was also separated for test data and train data. These were combined appropriately to create a single data set that listed, for each subject and activity, and the 66 recorded variables. 
+- The combined data set was written to a TidyData.txt file following Tidy Date norms.
+- The data was also grouped by subject, activity and the variable data for the groupings was summarized with a mean.
