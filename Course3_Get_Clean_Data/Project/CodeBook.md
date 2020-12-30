@@ -1,10 +1,10 @@
 ## Code Book: Getting and Cleaning Data Project
 Joel Modisette
 
-### Description
+## Description
 Additional information about the variables, data and transformations used in the course project for the Johns Hopkins Getting and Cleaning Data course.
 
-### Variables
+## Variables
 
 561 variables from SmartPhone data acquired from subjects (30) performing various activities (6).
 Variables are described by their specific accelerometer/gyroscope measurements.
@@ -18,7 +18,7 @@ For each record in the dataset it is provided:
 
  The only variables of interest are those involving mean() and std(). There are 66 of these in the 561 total variables.
 
-### Source Data
+## Source Data
 
 Data + Description can be found here [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
@@ -27,8 +27,6 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 The dataset includes the following files:
-=========================================
-
 - 'README.txt'
 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -56,24 +54,19 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 Notes: 
-======
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
 License:
-========
-Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+- Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+- This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
-Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
-
-
-### Transformations Used
+## Transformations Used
 - The only variables of interest were those that contained the terms mean() or std(). Other variables describing max(), min(), energy(), entropy(), etc. were discarded.
 - The original data sets used exponential notation. I transformed exponential notation to double numerical format to support subsequent mathematical functions.
 - The data was originally separated into two files: test and train. Test and Train contained data on the same 30 subjects performing the same 6 activities. These were combined into one data set.
