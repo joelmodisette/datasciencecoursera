@@ -27,9 +27,9 @@ R Studio::Conf 2019 / Cheatsheets | Various | https://rstudio.com/wp-content/upl
 
 No other scripts are required. The submitted script follows these steps in order:
 1. Setup: Load packages, establish directory paths, download and unzip data package.
-2. Read in Data: Each data file is read into a data frame, as is. No modifications.
+2. Read in Data: Each data file is read into a data frame.
 3. Filter for only the variables needed: mean() and std().
-4. Reduce the data sets to only the required variables.
+4. Reduce the data sets to only the filtered variables.
 5. Incrementally build the individual data sets for the train and test data in this sequence: Subject-Activity-Data.
 6. Combine and Summarize: Combine test and train data set into one complete set. Also, summarize the groupings in this complete set.
 7. Write out the complete data set to a csv file following Tidy Data Protocol.
