@@ -14,8 +14,8 @@ Plain Name | Filename | Link to Item
 Analysis R Script |  run_analysis.R |  [R Script Link](https://github.com/joelmodisette/datasciencecoursera/blob/master/Course3_Get_Clean_Data/Project/run_analysis.R "run_analysis.R")
 Tidy Data Set |  TidyData.txt |  [Data Set Link](https://github.com/joelmodisette/datasciencecoursera/blob/master/Course3_Get_Clean_Data/Project/TidyData.txt "tidyData.txt")
 Github Repo | Repo Submitted for Project |  [Repo Link](https://github.com/joelmodisette/datasciencecoursera/tree/master/Course3_Get_Clean_Data/Project "Repo Link submitted to Coursera")
-Cookbook | CodeBook.md |  [Repo Link](https://github.com/joelmodisette/datasciencecoursera/blob/master/Course3_Get_Clean_Data/Project/CodeBook.md "CodeBook.md")
-README | README.md  |  [Repo Link](https://github.com/joelmodisette/datasciencecoursera/edit/master/Course3_Get_Clean_Data/Project/README.md "README.md")
+Cookbook | CodeBook.md |  [Markdown Link](https://github.com/joelmodisette/datasciencecoursera/blob/master/Course3_Get_Clean_Data/Project/CodeBook.md "CodeBook.md")
+README | README.md  |  [Markdown Link](https://github.com/joelmodisette/datasciencecoursera/edit/master/Course3_Get_Clean_Data/Project/README.md "README.md")
 
 ## Script Functionality
 I used the TidyVerse R Packages for the script. I find TidyVerse creates a more readable and logical flow. My primary references were:
