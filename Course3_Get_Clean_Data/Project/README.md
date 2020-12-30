@@ -12,7 +12,7 @@ Student: Joel Modisette
 Plain Name | Filename | Link to Item
 --- | --- | ---
 Analysis R Script |  run_analysis.R |  [R Script Link](https://github.com/joelmodisette/datasciencecoursera/blob/master/Course3_Get_Clean_Data/Project/run_analysis.R "run_analysis.R")
-Tidy Data Set |  TidyData.csv |  [Data Set Link](https://github.com/joelmodisette/datasciencecoursera/blob/master/Course3_Get_Clean_Data/Project/TidyData.csv "tidyData.txt")
+Tidy Data Set |  TidyData.txt |  [Data Set Link](https://github.com/joelmodisette/datasciencecoursera/blob/master/Course3_Get_Clean_Data/Project/TidyData.txt "tidyData.txt")
 Github Repo | Project Repo |  [Repo Link](https://github.com/joelmodisette/datasciencecoursera/tree/master/Course3_Get_Clean_Data/Project "Repo Link submitted to Coursera")
 Cookbook | CodeBook.md |  [Markdown Link](https://github.com/joelmodisette/datasciencecoursera/blob/master/Course3_Get_Clean_Data/Project/CodeBook.md "CodeBook.md")
 README | README.md  |  [Markdown Link](https://github.com/joelmodisette/datasciencecoursera/edit/master/Course3_Get_Clean_Data/Project/README.md "README.md")
