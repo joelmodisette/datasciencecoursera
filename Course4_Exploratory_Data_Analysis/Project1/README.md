@@ -7,7 +7,7 @@ Student: Joel Modisette
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>. I use the "Individual household
-electric power consumption Data Set".
+electric power consumption Data Set" from the dates 2007-02-01 and 2007-02-02.
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 
