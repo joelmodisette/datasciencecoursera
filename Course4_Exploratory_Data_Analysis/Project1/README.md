@@ -4,7 +4,7 @@ Student: Joel Modisette
 
 ## Introduction
 
-This assignment uses data from
+This assignment created 4 plots using data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>. I use the "Individual household
 electric power consumption Data Set" from the dates 2007-02-01 and 2007-02-02.
