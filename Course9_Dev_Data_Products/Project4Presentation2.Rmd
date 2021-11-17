@@ -1,0 +1,61 @@
+---
+title: "Developing Data Products Course Project"
+author: "Joel Modisette"
+date: "11/17/2021"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+This presentation is the Course Project for the Developing Data Products Coursera course.
+
+The Shiny application is available at:     
+<https://jdmodisette.shinyapps.io/finalproject/>.
+
+The Shiny app source code and this presentation source code is available at:     
+[joelmodisette github](<https://github.com/joelmodisette/datasciencecoursera/tree/master/Course9_Dev_Data_Products>)
+
+The project objective is to provide an R Shiny app that allows the user to explore the MITRE ATT&CK Cybersecurity Threat Intelligence database.
+
+## Overview
+
+- The application is written in Shiny, a web application framework for R.
+- server.R contains the backend of this Shiny web application.
+- ui.R contains the user-interface elements.
+- Global.R downloads and prepares v10.1 datasets from https://attack.mitre.org.
+- The application is hosted on Rstudio's shiny server.
+
+The application allows the user to explore how cyber threat actors use techniques for exploitation. The techniques relate to general tactics which explain how a cyber actor is attacking. All data comes from the MITRE ATT&CK v10.1 Cyber Threat Landscape. ATT&CK V10.1 was published in November 2021. The datasets are pulled from the MITRE website.
+
+## How the App works:
+
+All information is contained in one main panel.
+
+- Select a Cyber Threat Actor from the drop down menu.
+- A SanKey graph presents how the specified actor uses known MITRE Techniques.
+- The MITRE Techniques flow into the known MITRE Tactics, also known as the Cyber Kill Chain.
+- You may interact with the graph by moving around the nodes.
+- A table is generated below the graph. It provides a complete description of each actor, technique and tactic in the displayed graph.
+
+## Sample R Shiny App View
+
+```{r sanKey, echo = FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(networkD3)
+library(tidyr)
+
+nodes <- read.csv("nodes.csv")
+links <- read.csv("links.csv")
+
+sankeyNetwork(Links = links, 
+              Nodes = nodes, 
+              Source = 'source',  
+              Target = 'target',  
+              Value = 'value',  
+              NodeID = 'name')
+
+```
